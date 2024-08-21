@@ -1,5 +1,5 @@
 import { supabase } from "../config/supabaseClient";
-import { Task } from "../models/Task";
+import { Task } from "../entities/Task";
 
 export class TaskRepository {
   async createTask(task: Task): Promise<Task | null> {
