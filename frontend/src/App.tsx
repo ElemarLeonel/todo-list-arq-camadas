@@ -1,4 +1,3 @@
-// src/App.tsx
 import React from "react";
 import TaskForm from "./components/TaskForm";
 import TaskDisplay from "./components/TaskDisplay";
