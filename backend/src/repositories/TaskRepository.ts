@@ -10,7 +10,7 @@ export class TaskRepository {
       .single();
 
     if (error) {
-      console.error("Error creating task:", error);
+      console.error("Erro ao criar a tarefa:", error);
       return null;
     }
 
@@ -25,7 +25,7 @@ export class TaskRepository {
       .single();
 
     if (error) {
-      console.error("Error getting task by ID:", error);
+      console.error("Erro ao pegar a tarefa pelo ID:", error);
       return null;
     }
 
