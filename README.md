@@ -12,6 +12,7 @@ Esse projeto visa aos alunos explicar um pouco sobre a arquitetura em camadas, o
   - React e React DOM
   - ViteJS
   - Axios
+  - TailwindCSS
 
 Ambas as stacks abaixo foram desenvolvidas em TypeScript.
 
