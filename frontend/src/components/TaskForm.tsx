@@ -65,7 +65,7 @@ const TaskForm: React.FC = () => {
   return (
     <form
       onSubmit={handleSubmit}
-      className="w-full flex flex-col items-center justify-center gap-2.5 px-2.5"
+      className="w-full max-w-7xl mx-auto flex flex-col items-center justify-center gap-2.5 px-2.5"
     >
       <div className="w-full">
         <label
